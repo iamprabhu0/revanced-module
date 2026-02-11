@@ -70,10 +70,12 @@ jobs:
           tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
           file_glob: true
           overwrite: true
-
+          
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: update
           skip_checkout: true
           file_pattern: build.md *-update.json
+          add_options: --ignore-missing
           commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+
