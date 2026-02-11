@@ -21,6 +21,6 @@ parallel-jobs = 1
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [Twitter]
-version = "10.62.1"
+version = "10.62.1-release.0"
 arch = "all"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
