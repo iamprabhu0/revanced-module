@@ -20,7 +20,8 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 # uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
-# [Twitter]
-# version = "10.62.1-release.0"
-# arch = "all"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+[Twitter]
+version = "10.86.0-release.0"
+arch = "all"
+dpi = "120-640dpi"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
